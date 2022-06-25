@@ -1,0 +1,16 @@
+1) Internal nedir?
+- Internal C# dilinde kullanilan bir erisim belirleyicidir(Access Modifier).
+- Public'den farklı olarak diğer projelerden erişime izin vermez
+- Protected'den farklı olarak aynı projede farklı classların erişimine izin verir.
+
+2) Abstraction nedir?
+Abstraction(soyutlama) yapısı sayesinde kullanıcıya metodun ne yaptığı
+hakkında bilgi sahibi olurken, nasıl yaptığını bilmez.Bu da işlemlere fonksiyonellik sağlar.
+Java’da Soyutlama interfaceler ve abstract class yapıları ile sağlanır.(Abstract Sınıflardan
+ve Interfacelerden nesne üretilmez)
+Soyut bir sınıf, alt sınıfların uygulayabileceği veya geçersiz kılabileceği işlevsellik
+yapmmaya izin verirken,interfaceler yalnızca işlevselliği belirtmenize izin verir, uygulamanıza izin vermez.
+Bir sınıf yalnızca bir soyut sınıfı kullanabilirken birden çok arayüz kullanabilir.
+
+3) Extends ve Implements aynı anda çağrılırsa ne olur ?
+Eclipse üzerinde hata veriyor aynı isme sahip methodu değiştirmeyi öneriyor.
